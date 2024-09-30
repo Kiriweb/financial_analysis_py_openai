@@ -19,7 +19,7 @@ def get_stock_data(ticker, start_date, end_date):
 st.sidebar.header('User Input Options')
 
 # Stock tickers
-selected_stock = st.sidebar.text_input('Enter Stock Ticker 1', 'MNSO').upper()
+selected_stock = st.sidebar.text_input('Enter Stock Ticker 1', 'AAPL').upper()
 selected_stock2 = st.sidebar.text_input('Enter Stock Ticker 2', 'GOOGL').upper()
 
 # Date range selection
